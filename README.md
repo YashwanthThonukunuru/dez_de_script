@@ -27,7 +27,8 @@ The script uses the following imports:
 
 ## Execution Steps 
 
-1. Define a function `parse_log_file` to read and parse a log file to extract listening data, which can be used in updating song counts by country and user.
+1. Define a function `parse_log_file` to read and parse a log file to extract listening data, which can be used in updating song counts by country and user. As we 
+   do real stream data for last 7 days, copies of log files were created.
 2. Define a function `process_log_files` to iterate over the log files for the last n number of days, aggregate the data, and return a dictionary with song counts 
    by country and user.
 3. Call `process_log_files` to get the aggregated listening data.
