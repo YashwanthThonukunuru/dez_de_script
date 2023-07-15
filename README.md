@@ -4,6 +4,14 @@
 
 The Deezer Log Analyzer is a Python script that processes daily log files containing listening stream data from Deezer. It calculates the top 50 songs listened to in each country over the last 7 days and provides the option to calculate the top 50 songs listened to by each user as well. The script utilizes the pandas library to efficiently handle and analyze the data.
 
+## Imports
+
+The script uses the following imports:
+
+- `os`: This import provides functions for interacting with the operating system. It is used to handle file paths, check file existence, and create directories for output files.
+
+- `datetime`: This import provides classes for working with dates and times. It is used to calculate the date range for processing log files and generate timestamps for output file names.
+
 ## Getting Started
 
 ### Prerequisites
